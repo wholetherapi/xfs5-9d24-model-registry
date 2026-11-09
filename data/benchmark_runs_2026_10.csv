@@ -1,1 +1,9 @@
-run_id,model_name
+run_id,model_name,benchmark,split,accuracy,macro_f1,p50_latency_ms,cost_per_1k_tokens,run_date,reviewer_note
+R-1042,AtlasRank,clf-eval-v3,test,0.874,0.861,640,0.0092,2026-10-21,rerun after tokenizer vocabulary fix
+R-1043,AtlasRank,clf-eval-v3-hard,test,0.561,0.548,880,0.0098,2026-10-21,hard split, same checkpoint
+R-1047,BrightCast,clf-eval-v3,test,0.523,0.511,1210,0.0044,2026-10-22,quantized export
+R-1048,BrightCast,clf-eval-v3-hard,test,0.694,0.655,1340,0.0049,2026-10-22,hard split, quantized export
+R-1051,CedarTrace,clf-eval-v3,test,0.187,0.203,410,0.0021,2026-10-23,small variant
+R-1052,CedarTrace,clf-eval-v3-hard,test,0.641,0.622,455,0.0023,2026-10-23,hard split, small variant
+R-1056,DriftLens,clf-eval-v3,test,0.826,0.804,760,0.0071,2026-10-24,single seed
+R-1059,EmberQuill,clf-eval-v3,test,0.377,0.359,1520,0.0132,2026-10-24,adapter checkpoint

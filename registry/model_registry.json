@@ -1,4 +1,46 @@
 {
   "registry_version": "2026.10",
-  "models": []
+  "updated_at": "2026-11-06",
+  "models": [
+    {
+      "model_id": "atlas-ranker",
+      "display_name": "AtlasRank",
+      "paper_title": "AtlasRank: Calibrated Rank Ensembles for Long-Tail Text Classification",
+      "repo": "wholetherapi/xfs5-9d24-atlas-ranker",
+      "primary_run_id": "R-1042",
+      "scorecard_verdict": null
+    },
+    {
+      "model_id": "brightcast",
+      "display_name": "BrightCast",
+      "paper_title": "BrightCast: Distilled Sequence Taggers for Streaming Dialogue Understanding",
+      "repo": "wholetherapi/xfs5-9d24-brightcast",
+      "primary_run_id": "R-1048",
+      "scorecard_verdict": null
+    },
+    {
+      "model_id": "cedartrace",
+      "display_name": "CedarTrace",
+      "paper_title": "CedarTrace: Provenance-Aware Retrieval for Scientific Claim Verification",
+      "repo": "wholetherapi/xfs5-9d24-cedartrace",
+      "primary_run_id": "R-1052",
+      "scorecard_verdict": null
+    },
+    {
+      "model_id": "driftlens",
+      "display_name": "DriftLens",
+      "paper_title": "DriftLens: Online Drift Detection for Deployed Text Classifiers",
+      "repo": "wholetherapi/xfs5-9d24-driftlens",
+      "primary_run_id": "R-1056",
+      "scorecard_verdict": null
+    },
+    {
+      "model_id": "emberquill",
+      "display_name": "EmberQuill",
+      "paper_title": "EmberQuill: Efficient Low-Rank Adaptation for Domain-Shifted Named Entity Recognition",
+      "repo": "wholetherapi/xfs5-9d24-emberquill",
+      "primary_run_id": "R-1059",
+      "scorecard_verdict": null
+    }
+  ]
 }
